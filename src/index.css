@@ -19,7 +19,10 @@ body {
   }
 
   .head-text {
-    @apply sm:text-4xl text-3xl font-semibold text-gray_gradient;
+    @apply sm:text-4xl text-3xl font-semibold 
+    text-end
+    text-cyan-400
+    ;
   }
 
   .nav-ul {
@@ -66,7 +69,10 @@ body {
   }
 
   .grid-headtext {
-    @apply text-xl font-semibold mb-2 text-white font-generalsans;
+    @apply  font-extrabold mb-2 text-cyan-500
+    text-end
+    text-2xl
+    font-generalsans
   }
 
   .jomhuria-regular {

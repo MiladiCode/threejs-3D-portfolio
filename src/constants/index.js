@@ -248,12 +248,18 @@ export const myProjects = [
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
   return {
-    deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
-    deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
-    cubePosition: isSmall ? [4, -5, 0] : isMobile ? [5, -5, 0] : isTablet ? [5, -5, 0] : [9, -5.5, 0],
-    reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5, 4, 0] : isTablet ? [5, 4, 0] : [12, 3, 0],
-    ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-10, 10, 0] : isTablet ? [-12, 10, 0] : [-24, 10, 0],
-    targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
+    deskScale: isSmall ? 0.005 : isMobile ? 0.009 : 0.01,
+    deskPosition: isSmall ? [0.04, 0.2, 2.6] : isTablet ? [0.1, 0, 2.6] : [0.1, -0.1, 2.6],
+
+    youtubePosition: isSmall ? [-7, 12, -35] : isMobile ? [-9, 8, -19] : isTablet ? [-5, 8, -15] : [-10, 8, -15],
+
+    cubePosition: isSmall ? [6, 8, -30] : isMobile ? [9, 6, -18] : isTablet ? [7, 6, -19] : [10, 5, -16],
+
+    reactLogoPosition: isSmall ? [10, 3, -60] : isMobile ? [19, 2, -43] : isTablet ? [12, 2, -48] : [19, -1, -40],
+
+    ringPosition: isSmall ? [8, 20, -50] : isMobile ? [15, 18, -35] : isTablet ? [10.5, 16, -30] : [15, 16, -30],
+
+    targetPosition: isSmall ? [-5, 0.008, -25] : isMobile ? [-9, 0.002, -18] : isTablet ? [-6, 0.002, -18] : [-8, -1, -10],
   };
 };
 
