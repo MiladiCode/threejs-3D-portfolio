@@ -16,7 +16,7 @@ const About = () => {
     }, 2000)
   }
   return (
-    <section className="c-space my-20">
+    <section className="c-space my-20" id="about">
       <div class="grid xl:grid-cols-3 xl:grid-rows-1 md:grid-cols-2 grid-cols-1 gap-5 h-full">
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
@@ -30,8 +30,8 @@ const About = () => {
         </div>
 
         <div className="col-span-1 xl row-span-1">
-          <div className="grid-container">
-            <img src="/assets/grid2.png" alt="grid2" className="w-full sm:w-[276px] h-fit object-contain"/>
+          <div className="grid-container ">
+            <img src="/assets/grid2.png" alt="grid2" className="w-full sm:w-[276px]  h-fit object-contain"/>
             <div>
               <p className="grid-headtext" >Full-Stack</p>
               <p className="grid-subtext text-end">به دنبال یادگیری تخصصی <p className=" inline-block text-cyan-600"> Back-End </p> هستم ولی تمرکزم رو بصورت موقتی روی حوزه<p className="inline-block text-cyan-600">Front-End</p> قرار دادم</p>
