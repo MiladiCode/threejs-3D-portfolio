@@ -8,3 +8,7 @@ An amazing 3D Portfolio WebSite created by using  React, Three.js and TailwindCS
 ![About](About.png)
 ![Work](Work.png)
 ![Experience](Experience.png)
+
+
+https://github.com/user-attachments/assets/0c8a4ae6-49ad-41dd-bd54-81db1e86e000
+
