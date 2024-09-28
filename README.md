@@ -4,7 +4,6 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 An amazing 3D Portfolio WebSite created by using  React, Three.js and TailwindCSS.
 
-#Live
 https://github.com/user-attachments/assets/0c8a4ae6-49ad-41dd-bd54-81db1e86e000
 
 ![hackerRoom](hackerRoom.png)
